@@ -2,11 +2,18 @@ import { Header, Logo, NavBar, NavList, List,
 NavLink, Button, MenuIcon } from "./styled";
 import { BiMenu } from "react-icons/bi"
 import { IoClose } from "react-icons/io5"
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export default function header() {
     const [menuIcon, setMenuIcon] = useState(<BiMenu/>)
     const navRef = useRef(null)
+
+    useEffect(() => {
+        window.addEventListener("scroll", () => {
+            navRef.current.classList.remove("active")
+            setMenuIcon(<BiMenu/>)
+        })
+    }, [])
 
     function toggleMenu() {
         if(navRef.current.classList.contains("active")) {
