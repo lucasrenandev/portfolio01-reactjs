@@ -7,7 +7,7 @@ export default function scrollArrow() {
 
     useEffect(() => {
         window.addEventListener("scroll", () => {
-            if(window.scrollY > 400) {
+            if(window.scrollY > 300) {
                 setArrow(true)
             }
             else {

@@ -62,7 +62,7 @@ export const Form = styled.form`
         width: 260px;
     }
 `
-export const InputText = styled.input`
+export const InputEmail = styled.input`
     width: 100%;
     height: auto;
     border: 2px solid var(--main-color);

@@ -6,7 +6,7 @@ import { FaBell } from "react-icons/fa"
 
 export default function services() {
     return(
-        <Services id="services">
+        <Services>
             <Title>
                 <H2>Our services</H2>
             </Title>

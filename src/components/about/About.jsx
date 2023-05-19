@@ -4,7 +4,7 @@ import mainImg from "../../assets/main-img.png"
 
 export default function about() {
     return(
-        <About id="about">
+        <About>
             <AboutImage>
                 <Image src={mainImg} alt="About image"/>
             </AboutImage>

@@ -21,12 +21,12 @@ export const GlobalStyles = createGlobalStyle`
 
         @media (max-width: 1301px) {
             --big-font: 4.2rem;
-            --h2-font: 4rem;
+            --h2-font: 3.9rem;
         }
 
         @media (max-width: 600px) {
             --big-font: 3rem;
-            --h2-font: 2.9rem;
+            --h2-font: 2.7rem;
         }
     }
 

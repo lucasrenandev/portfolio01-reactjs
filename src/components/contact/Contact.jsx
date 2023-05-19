@@ -6,7 +6,7 @@ import { FaWhatsapp } from "react-icons/fa"
 
 export default function contact() {
     return(
-        <Contact id="contact">
+        <Contact>
             <ContactContent>
                 <H4>Tahmid Ahmed</H4>
                 <Paragraph>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi cumque ab accusamus impedit voluptate praesentium atque enim expedita rem quisquam.</Paragraph>

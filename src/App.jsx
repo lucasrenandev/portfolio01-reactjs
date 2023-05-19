@@ -6,7 +6,7 @@ import Services from "./components/services/Services"
 import Skills from "./components/skills/Skills"
 import Contact from "./components/contact/Contact"
 import Footer from "./components/footer/Footer"
-import ScrollArrow from "./components/ScrollArrow/ScrollArrow"
+import ScrollArrow from "./components/scrollarrow/ScrollArrow"
 
 export default function App() {
   return (

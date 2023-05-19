@@ -87,7 +87,7 @@ export const Button = styled.a`
         transform: scale(1.1);
     }
 
-    @media (max-width: 350px) {
+    @media (max-width: 348px) {
         display: none;
     }
 `

@@ -1,18 +1,18 @@
 import { Home, HomeText, H4, H1, H3,
-Form, InputText, InputSubmit } from "./styled";
+Form, InputEmail, InputSubmit } from "./styled";
 
 export default function home() {
     return(
-        <Home id="home">
+        <Home>
             <HomeText>
                 <H4>Hello, my name is</H4>
                 <H1>Tahmid <span>Ahmed</span></H1>
                 <H3>I'am a Web Developer</H3>
 
                 <Form action="#">
-                    <InputText 
-                    type="text" 
-                    name="text" 
+                    <InputEmail 
+                    type="email" 
+                    name="email" 
                     placeholder="Enter your email"
                     autoComplete="none"
                     required />
@@ -20,8 +20,7 @@ export default function home() {
                     <InputSubmit 
                     type="submit" 
                     name="submit" 
-                    value={"Let's start"} 
-                    disabled />
+                    value={"Let's start"} />
                 </Form>
             </HomeText>
         </Home>
